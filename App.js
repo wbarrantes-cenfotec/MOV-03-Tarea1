@@ -18,13 +18,13 @@ const App = () => {
           <Scene
             key="home"
             component={HomeScreen}
-            title="Lista de Albumnes"
+            title="All the albums..."
             initial={true}
           />
           <Scene
             key="detail"
             component={DetailScreen}
-            title="Detalle de Album"
+            title="Album details"
           />
         </Scene>
       </Router>
